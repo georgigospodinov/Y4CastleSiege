@@ -1,0 +1,133 @@
+# play screen
+full screen=true
+game width=displayWidth
+game height=displayHeight
+
+# cell
+cell width=0.03
+cell height=0.05
+
+checkbox space=0.10
+fillbox space=0.30
+
+# highlight color
+highlight color red=255
+highlight color green=0
+highlight color blue=127
+
+# default color
+default color red=191
+default color green=191
+default color blue=191
+
+# Quest
+label quest x=0.2
+label quest y=0.1
+label quest size=0.15
+
+# Play
+button play x=0.25
+button play y=0.4
+button play size=0.25
+
+# Lore button
+button lore x=0.00
+button lore y=0.9
+button lore size=0.1
+
+# Controls button
+button controls x=1.00
+button controls y=0.9
+button controls size=0.1
+
+# Controls screen text
+details size=0.03
+details x=0.05
+details y=0.05
+
+# back button
+back x=0.00
+back y=1.00
+back size=0.15
+
+# Status
+message status size=0.05
+message attributes size=0.03
+attributes back color red=100
+attributes back color green=100
+attributes back color blue=100
+attributes fill color red=0
+attributes fill color green=0
+attributes fill color blue=255
+progress fill color red=255
+progress fill color green=0
+progress fill color blue=0
+
+# Game Over stats
+stats game over x=0.30
+stats game over y=0.15
+stats game over size=0.07
+
+# Game Over restart button
+button game over x=0.10
+button game over y=0.65
+button game over size=0.10
+
+# Overlay
+overlay fill color red=0
+overlay fill color green=0
+overlay fill color blue=0
+overlay back color red=127
+overlay back color green=127
+overlay back color blue=127
+
+
+
+# Picked Up Unit (when selecting what to place)
+picked up type w=0.03
+picked up type h=0.06
+
+# Unit Selector
+unit selector gap=0.02
+unit selector x=0.93
+unit selector y=0.93
+unit selector w=0.02
+unit selector h=0.04
+# https://www.redbubble.com/people/stevenfholmes/works/27901396-pixel-art-wood-planks
+unit holder=assets/images/unit_holder.jpg
+unit holder w factor=1.1
+unit holder h factor=1.6
+
+creature selector gap=0.02
+creature selector x=0.02
+creature selector y=0.9
+creature selector w=0.04
+creature selector h=0.08
+
+
+# Background images
+# https://www.pinterest.co.uk/pin/482025966348716562
+play background tile=assets/images/play.jpg
+play background tile w=0.01
+play background tile h=0.01
+
+# Question Screen
+question size=0.06
+answer size=0.03
+question x=0.03
+question y=0.03
+positive x=0.1
+positive y=0.7
+negative x=0.5
+negative y=0.7
+
+# Offer screen
+offer size=0.07
+deal size=0.05
+offer x=0.2
+offer y=0.1
+accept x=0.05
+accept y=0.8
+deny x=0.05
+deny y=0.9
+meet height=0.5

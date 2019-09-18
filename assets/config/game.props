@@ -1,0 +1,109 @@
+max moral=1000
+
+# Castle properties
+castle health bar x=0.33
+castle health bar y=0.01
+castle health bar width=0.34
+castle health bar height=0.02
+castle health=350.0
+
+# Soldiers
+# The radius of a soldier gets divided by this number.
+# The result is how close a soldier needs to be to a point, so that it is considered to have arrived.
+movement satisfaction radius portion=32.0
+soldier default width=0.02
+soldier default height=0.04
+
+battle desynch=0.15
+
+# Footman
+footman selector image=assets/images/units/footman/selector.png
+footman walk north animation=assets/images/units/footman/walk/
+footman attack north animation=assets/images/units/footman/attack/
+footman attack damage=2.0
+# The attack range factor is multiplied by the height (in pixels) of the soldier.
+footman attack range factor=0.75
+footman total attack time=2000.0
+footman health=150.0
+footman movement speed=1.0
+footman spared moral change=15
+
+# Archer
+archer selector image=assets/images/units/archer/selector.png
+archer walk north animation=assets/images/units/archer/walk/
+archer attack north animation=assets/images/units/archer/attack/
+archer attack damage=1.0
+# The attack range factor is multiplied by the height (in pixels) of the soldier.
+archer attack range factor=8.0
+archer total attack time=1500.0
+archer health=100.0
+archer movement speed=1.5
+archer spared moral change=20
+
+# Defences
+tower image=assets/images/defences/tower/tower.png
+tower width=0.05
+tower height=0.15
+weapon height factor=0.27
+weapon width factor=0.47
+
+# Ballista
+ballista images=assets/images/defences/ballista/
+ballista attack damage=5.0
+ballista total attack time=1000.0
+ballista health=100.0
+ballista moral change=10
+
+# Catapult
+catapult images=assets/images/defences/catapult/
+catapult attack damage=3.0
+catapult total attack time=2000.0
+catapult health=200.0
+catapult radius=0.025
+catapult moral change=20
+
+# Magical creatures & Spells
+denial moral=10
+
+creature angel=assets/images/creatures/angel/
+creature angel moral change=30
+
+spell w=0.2
+spell h=0.4
+spell casting time=2000
+spell move speed=0.02
+
+heal range=0.35
+heal amount=100.0
+
+creature warlock=assets/images/creatures/warlock/
+creature warlock moral change=-20
+
+slow range=0.2
+slow factor=2.0
+# In milliseconds.
+slow duration=8000
+
+creature priest=assets/images/creatures/priest/
+creature priest moral change=20
+
+haste range=0.2
+haste amount=2.0
+haste duration=6000
+
+creature necromancer=assets/images/creatures/necromancer/
+creature necromancer moral change=-30
+
+reanimate range=0.25
+
+# Rise duration is in milliseconds.
+zombie rise duration=1500
+zombie walk north animation=assets/images/units/zombie/walk/
+zombie attack north animation=assets/images/units/zombie/attack/
+zombie rise animation=assets/images/units/zombie/rise/
+zombie attack damage=3.0
+# The attack range factor is multiplied by the height (in pixels) of the soldier.
+zombie attack range factor=0.85
+zombie total attack time=2500.0
+zombie health=75.0
+zombie movement speed=0.75
